@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <title> Calorie Tracker </title>
-</head>
-<body>
 
-<h1> Tere </h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ </head>
+ <body>
 
-</body>
+     <!-- Navbar -->
+
+     <nav>
+        <div class="nav-wrapper-blue">
+            <div class="container">
+                <a href="#" class="brand-logo-center"> Track calories </a>
+            </div>
+        </div>
+    </nav>
+
+     <br>
+
+     <div class="container">
+         <!--tracker content here -->
+         <div class="card">
+             <div class="card-content">
+                 <span class="card-title">  Add Meal / Food Item </span>
+                 <form class="col">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" placeholder="Add Item" id="item-name">
+                            <label for="item-name"> Meal</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input type="text" placeholder="Add Calories" id="item-calories">
+                            <label for="item-calories"> Calories </label>
+                        </div>
+                        <button class="add-btn btn blue darken-3"> Add Meal </button>
+                    </div>
+                 </form>
+
+             </div>
+         </div>
+     </div>
+
+     <!-- Calorie Tracker/Counter -->
+     <h5 class="center-align"> Total Calories: <span class="total-calories"> 0 </span></h5>
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="app.js"></script>
+
+ </body>
 </html>
