@@ -110,7 +110,7 @@ const App = (function(ItemCtrl, UICtrl){
 
     return{
         init: function(){
-            console.log('Initializing Apps')
+            console.log('Initializing Aps')
             // fetch items from data structure
             const items = ItemCtrl.getItems()
             // populate items list
